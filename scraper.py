@@ -27,7 +27,8 @@ def scrap_images() -> None:
         # pprint(match.group())
     """
     # print(file)
-    match = re.findall(r'src=', file)
+    # match = re.findall(r'src="(.*[.jpg]$)"', file)
+    match = re.findall(r'src="(.*\.jpg\)"', file)
     pprint(match)
 
 def main():
