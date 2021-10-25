@@ -6,6 +6,9 @@ import requests
 from pprint import pprint
 
 class Scraper:
+    """To make possible implement convolutional neuron networks, it's necessary 
+    extract the specific images, i.e. bacteria growth.
+    """
     def __init__(self, url: str) -> None:
         self.url = url
     
@@ -14,11 +17,15 @@ class Scraper:
     
     def __len__(self):
         pass
+    
+    def extract_images(self):
+        pass
 
 
 def scrap_images() -> None:
     
-    base_url = "https://www.scienceprofonline.com/science-image-libr/sci-image-libr-bacteria-media-culture-lab.html"
+    base_url = "https://www.scienceprofonline.com/science-image-libr/"\
+    "sci-image-libr-bacteria-media-culture-lab.html"
 
     page = requests.get(url=base_url).text
     html = BeautifulSoup(page, 'lxml')
