@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from urllib.parse import urlencode
 import re
 from bs4 import BeautifulSoup
 import requests
