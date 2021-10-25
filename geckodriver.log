@@ -42,3 +42,35 @@ DevTools listening on ws://localhost:45031/devtools/browser/240b40c8-ce37-4675-8
 JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1635135464701	Marionette	INFO	Stopped listening on port 45215
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1635138599875	geckodriver	INFO	Listening on 127.0.0.1:38843
+1635138599881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55419" "-no-remote" "-profile" "/tmp/rust_mozprofileUKa3Kl"
+
+(firefox:5992): Gtk-WARNING **: 00:09:59.911: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1635138600294	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUKa3Kl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55419/devtools/browser/c7ed9843-c808-4651-a6a5-507270abc7ae
+1635138601323	Marionette	INFO	Listening on port 40187
+1635138601402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1635138609853	Marionette	INFO	Stopped listening on port 40187
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635138610344	geckodriver	INFO	Listening on 127.0.0.1:38197
+1635138610849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51951" "-no-remote" "-profile" "/tmp/rust_mozprofileWUoOfW"
+
+(firefox:6196): Gtk-WARNING **: 00:10:10.884: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1635138611285	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWUoOfW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51951/devtools/browser/0d1d442d-0534-438f-833c-45e0136c0876
+1635138612340	Marionette	INFO	Listening on port 42415
+1635138612369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1635138616666	Marionette	INFO	Stopped listening on port 42415
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
